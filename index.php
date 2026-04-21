@@ -15,7 +15,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UniCore</title>
+    <title>UniCore: University Admin System</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100">
@@ -23,7 +23,7 @@ session_start();
 <!-- Navbar -->
 <nav class="bg-gray-800 shadow-md">
     <div class="container mx-auto px-4 py-4 flex justify-between items-center  ">
-        <h1 class="text-2xl font-bold leading-tight text-transparent bg-gradient-to-r from-indigo-500 to-cyan-500 bg-clip-text">University Admin System</h1>
+        <h1 class="text-2xl font-bold leading-tight text-transparent bg-gradient-to-r from-indigo-500 to-cyan-500 bg-clip-text">UniCore</h1>
         <div>
             <a href="auth/login.php" class="px-4 py-2 bg-leading-tight bg-gradient-to-r from-indigo-500 to-cyan-500  text-white rounded hover:bg-blue-700 transition">Admin Login</a>
         </div>
@@ -34,7 +34,7 @@ session_start();
 <section class="bg-gray-900 py-20">
     <div class="container mx-auto px-4 text-center">
         <h2 class="text-4xl font-bold leading-tight text-transparent bg-gradient-to-r from-indigo-500 to-cyan-500 bg-clip-text mb-4">Manage Students, Courses & Enrollment Easily</h2>
-        <p class="text-gray-400 mb-8 text-lg">A modern university management system with dashboard analytics, enrollment charts, and more.</p>
+        <p class="text-gray-400 mb-8 text-lg">A modern university admin management system with dashboard analytics, enrollment charts, and more.</p>
         <a href="auth/login.php" class="px-8 py-4 bg-gradient-to-r from-indigo-500 to-cyan-500 text-white rounded-lg font-semibold hover:from-indigo-600 hover:to-cyan-600 transition">Get Started</a>
     </div>
 </section>
